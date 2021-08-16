@@ -1,0 +1,98 @@
+{
+  "main": {
+    "id": "cb054fd7680a570a",
+    "type": "split",
+    "children": [
+      {
+        "id": "f526614ddb98e48f",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "archetype/archetype (10.10.10.27).md",
+            "mode": "preview"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "22897ea456ec26b1",
+    "type": "split",
+    "children": [
+      {
+        "id": "a286d52ba86a4f17",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9fb935d4aea0ccd2",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "b4dfcd7fb22746fe",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "783a5e122cfa125a",
+    "type": "split",
+    "children": [
+      {
+        "id": "52bc78c9782bc513",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fa8e7ebc185518c4",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "archetype/archetype (10.10.10.27).md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "f526614ddb98e48f",
+  "lastOpenFiles": [
+    "archetype/archetype (10.10.10.27).md",
+    "archetype/recon.md",
+    "archetype/services.md",
+    "Untitled.md",
+    "archetype/archetype.md",
+    "archetype/enumeration.md"
+  ]
+}
