@@ -7,9 +7,10 @@
         "id": "ef2341b11d7c7518",
         "type": "leaf",
         "state": {
-          "type": "image",
+          "type": "markdown",
           "state": {
-            "file": "oopsie/screenshots/Pasted image 20210817113146.png"
+            "file": "archetype/archetype (10.10.10.27).md",
+            "mode": "preview"
           }
         }
       }
@@ -67,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "oopsie/screenshots/Pasted image 20210817113146.png",
+                "file": "archetype/archetype (10.10.10.27).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -96,15 +97,15 @@
   },
   "active": "ef2341b11d7c7518",
   "lastOpenFiles": [
-    "Pasted image 20210817113146.png",
-    "oopsie/sh.md",
-    "10.10.10.46/filezilla.md",
-    "oopsie/recon.md",
-    "archetype/recon.md",
+    "archetype/archetype (10.10.10.27).md",
     "oopsie/oopsie (10.10.10.28).md",
+    "oopsie/apache.md",
+    "oopsie/sh.md",
+    "oopsie/recon.md",
+    "Pasted image 20210817113146.png",
+    "10.10.10.46/filezilla.md",
+    "archetype/recon.md",
     "Untitled.md",
-    "10.10.10.46/10.10.10.46.md",
-    "Pasted image 20210817083720.png",
-    "archetype/archetype (10.10.10.27).md"
+    "10.10.10.46/10.10.10.46.md"
   ]
 }

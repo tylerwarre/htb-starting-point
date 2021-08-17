@@ -5,11 +5,11 @@
 
 ## Summary
 ### Users
-| user     | pass          | host        | services         | groups            | soruce            |
-| -------- | ------------- | ----------- | ---------------- | ----------------- | ----------------- |
-| www-data |               | 10.10.10.46 | apache           | www-data          | php reverse shell |
-| robert   | M3g4C0rpUs3r! | 10.10.10.28 | mysql, ssh       | robert, bugtacker | php reverse shell |
-| ftpuser  | mc@F1l3ZilL4  | 10.10.10.28 | ftp (fileserver) |                   | sh                | 
+| user     | pass          | host        | services         | groups            | soruce                |
+| -------- | ------------- | ----------- | ---------------- | ----------------- | --------------------- |
+| www-data |               | 10.10.10.46 | apache           | www-data          | php reverse shell->sh | 
+| robert   | M3g4C0rpUs3r! | 10.10.10.28 | mysql, ssh       | robert, bugtacker | php reverse shell->sh |
+| ftpuser  | mc@F1l3ZilL4  | 10.10.10.28 | ftp (fileserver) |                   | sh                    |
 
 ### System Info
 | System Attribute | Value                              |

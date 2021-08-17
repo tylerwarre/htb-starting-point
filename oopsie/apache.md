@@ -27,7 +27,6 @@
 | Peter       |                  |       | 57633     | 13  | peter@qpic.co.uk        |
 | Rafol       |                  |       | 28832     | 23  | tom@rafol.co.uk         |
 | super admin |                  |       | 86575     | 30  | superadmin@megacrop.com |
-|             |                  |       |           |     |                         |
 
 ### cookies
 | name | default value                    | notes                                                                |
