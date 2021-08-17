@@ -1,4 +1,13 @@
 # Archetype (10.10.10.27)
+## System Infro
+| System Attribute | Value                                  |
+| ---------------- | -------------------------------------- |
+| OS Name          | Microsoft Windows Server 2019 Standard |
+| OS Version       | 10.0.17763 N/A Build 17763             |
+| Archtechture     | x64                                    |
+| RAM              | 2,047 MB                               |
+| Host Type        | VMware Virtual Machine                 |
+| Nics             | vmxnet3 (10.10.10.27)                  | 
 ## Users
 | user              | pass             | services    | soruce     |
 | ----------------- | ---------------- | ----------- | ---------- |

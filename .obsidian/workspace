@@ -4,13 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "f526614ddb98e48f",
+        "id": "ef2341b11d7c7518",
         "type": "leaf",
         "state": {
-          "type": "markdown",
+          "type": "image",
           "state": {
-            "file": "archetype/smb.md",
-            "mode": "source"
+            "file": "oopsie/screenshots/Pasted image 20210817113146.png"
           }
         }
       }
@@ -68,7 +67,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "archetype/smb.md",
+                "file": "oopsie/screenshots/Pasted image 20210817113146.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -78,25 +77,34 @@
                 "unlinkedCollapsed": true
               }
             }
+          },
+          {
+            "id": "e7faa45c1098eed4",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
     "width": 300,
     "collapsed": true
   },
-  "active": "f526614ddb98e48f",
+  "active": "ef2341b11d7c7518",
   "lastOpenFiles": [
-    "archetype/smb.md",
+    "Pasted image 20210817113146.png",
+    "oopsie/sh.md",
+    "10.10.10.46/filezilla.md",
+    "oopsie/recon.md",
     "archetype/recon.md",
-    "archetype/mssql.md",
-    "archetype/archetype (10.10.10.27).md",
-    "archetype/services.md",
+    "oopsie/oopsie (10.10.10.28).md",
     "Untitled.md",
-    "archetype/screenshots/Pasted image 20210816141309.png",
-    "Pasted image 20210816134932.png",
-    "archetype/archetype.md",
-    "archetype/enumeration.md"
+    "10.10.10.46/10.10.10.46.md",
+    "Pasted image 20210817083720.png",
+    "archetype/archetype (10.10.10.27).md"
   ]
 }

