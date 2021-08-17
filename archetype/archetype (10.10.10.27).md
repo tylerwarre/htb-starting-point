@@ -1,14 +1,15 @@
 # Archetype (10.10.10.27)
 ## Users
-| user              | pass             | services | soruce     |
-| ----------------- | ---------------- | -------- | ---------- |
-| ARCHETYPE\sql_svc | M3g4c0rp123      | MS SQL   | SMB        |
-| administrator     | MEGACORP_4dm1n!! | Windows  | MSSQL->cmd | 
+| user              | pass             | services    | soruce     |
+| ----------------- | ---------------- | ----------- | ---------- |
+| ARCHETYPE\sql_svc | M3g4c0rp123      | MS SQL, SMB | SMB        |
+| administrator     | MEGACORP_4dm1n!! | Windows     | MSSQL->cmd |
 
 ## Flags
 | type | flag                             |
 | ---- | -------------------------------- |
-| user | 3e7b102e78218e935bf3f4951fec21a3 | 
+| user | 3e7b102e78218e935bf3f4951fec21a3 |
+| root | b91ccec3305e98240082d4474b848528 | 
 ## Services
 | IP          | hostname  | version                                        |
 | ----------- | --------- | ---------------------------------------------- |

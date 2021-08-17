@@ -1,0 +1,2 @@
+net.exe use T: \\Archetype\backups /user:administrator MEGACORP_4dm1n!!
+exit

