@@ -1,5 +1,5 @@
 # Archetype (10.10.10.27) SMB
-[[archetype (10.10.10.27)]]
+#archetype
 ## Summary
 - Found root flag
 - Found sql_svc credentials

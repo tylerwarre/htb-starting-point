@@ -7,10 +7,9 @@
         "id": "ef2341b11d7c7518",
         "type": "leaf",
         "state": {
-          "type": "markdown",
+          "type": "image",
           "state": {
-            "file": "archetype/archetype (10.10.10.27).md",
-            "mode": "preview"
+            "file": "vaccine/screenshots/Pasted image 20210817151144.png"
           }
         }
       }
@@ -68,7 +67,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "archetype/archetype (10.10.10.27).md",
+                "file": "vaccine/screenshots/Pasted image 20210817151144.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,9 +85,20 @@
               "type": "advanced-tables-toolbar",
               "state": {}
             }
+          },
+          {
+            "id": "6816e608bca61c1b",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -97,15 +107,15 @@
   },
   "active": "ef2341b11d7c7518",
   "lastOpenFiles": [
-    "archetype/archetype (10.10.10.27).md",
-    "oopsie/oopsie (10.10.10.28).md",
+    "Pasted image 20210817151144.png",
+    "vaccine/apache.md",
+    "vaccine/ftp.md",
+    "vaccine/recon.md",
     "oopsie/apache.md",
-    "oopsie/sh.md",
-    "oopsie/recon.md",
-    "Pasted image 20210817113146.png",
-    "10.10.10.46/filezilla.md",
+    "vaccine/vaccine (10.10.10.46).md",
+    "archetype/archetype (10.10.10.27).md",
+    "archetype/mssql.md",
     "archetype/recon.md",
-    "Untitled.md",
-    "10.10.10.46/10.10.10.46.md"
+    "archetype/smb.md"
   ]
 }

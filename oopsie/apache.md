@@ -1,5 +1,5 @@
 # Oopsie (10.10.10.28) Apache
-[[oopsie (10.10.10.28)]]
+#oopsie
 ## Summary
 ### directories
 | dir                                                  | notes                                    |

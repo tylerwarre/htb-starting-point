@@ -1,4 +1,8 @@
 # Archetype (10.10.10.27)
+#archetype
+[[mssql]]
+[[recon]]
+[[smb]]
 ## System Infro
 | System Attribute | Value                                  |
 | ---------------- | -------------------------------------- |

@@ -1,7 +1,7 @@
 # Oopsie (10.10.10.28) Sh
-[[apache]]
-[[oopsie (10.10.10.28)]]
-[[filezilla]]
+#oopsie
+[[oopsie/apache]]
+[[ftp]]
 
 ## Summary
 ### Users

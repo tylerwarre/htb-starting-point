@@ -1,5 +1,5 @@
 # Archetype (10.10.10.27) MSSQL
-[[archetype (10.10.10.27)]]
+#archetype
 ## Summary
 - Found user flag
 - Found adminstrator credentials

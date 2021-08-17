@@ -1,4 +1,8 @@
 # Oopsie (10.10.10.28)
+#oopsie
+[[oopsie/apache]]
+[[oopsie/recon]]
+[[sh]]
 ## System Infro
 | System Attribute | Value                              |
 | ---------------- | ---------------------------------- |
@@ -14,7 +18,6 @@
 | -------- | ------------- | ----------- | ---------------- | ----------------- | ----------------- |
 | www-data |               | 10.10.10.46 | apache           | www-data          | php reverse shell |
 | robert   | M3g4C0rpUs3r! | 10.10.10.28 | mysql, ssh       | robert, bugtacker | php reverse shell |
-| ftpuser  | mc@F1l3ZilL4  | 10.10.10.28 | ftp (fileserver) |                   | sh                | 
 
 ## Flags
 | type | flag                             |

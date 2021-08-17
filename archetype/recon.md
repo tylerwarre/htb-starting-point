@@ -1,5 +1,5 @@
 # Archetype (10.10.10.27) Recon
-[[archetype (10.10.10.27)]]
+#archetype
 ## Summary
 ### System Info
 | System Attribute | Value                                  |
