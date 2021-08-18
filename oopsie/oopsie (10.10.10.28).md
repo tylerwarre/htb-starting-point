@@ -2,7 +2,7 @@
 #oopsie
 [[oopsie/apache]]
 [[oopsie/recon]]
-[[sh]]
+[[oopsie/sh]]
 ## System Infro
 | System Attribute | Value                              |
 | ---------------- | ---------------------------------- |

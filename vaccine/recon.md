@@ -1,10 +1,11 @@
 # Vaccine (10.10.10.46) Recon
 #vaccine
 
-| IP          | hostname | version                      |
-| ----------- | -------- | ---------------------------- |
-| 10.10.10.46 | vaccine  | vsftpd 3.0.3                 |
-| 10.10.10.46 | vaccine  | OpenSSH 8.0p1 Ubuntu 6build1 | 
+| IP          | hostname | version                         |
+| ----------- | -------- | ------------------------------- |
+| 10.10.10.46 | vaccine  | vsftpd 3.0.3                    |
+| 10.10.10.46 | vaccine  | OpenSSH 8.0p1 Ubuntu 6build1    |
+| 10.10.10.46 | vaccine  | PostgreSQL 11.5 (Ubuntu 11.5-1) | 
 
 ## Nmap
 1. TCP Scan
