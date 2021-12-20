@@ -1,0 +1,11 @@
+# Nmap 7.92 scan initiated Mon Dec 20 10:14:04 2021 as: nmap -Pn -n -v -sT --top-ports 200 -oN ./top_200_tcp_10.129.142.172_32 10.129.142.172
+Nmap scan report for 10.129.142.172
+Host is up (0.096s latency).
+Not shown: 197 closed tcp ports (conn-refused)
+PORT    STATE SERVICE
+135/tcp open  msrpc
+139/tcp open  netbios-ssn
+445/tcp open  microsoft-ds
+
+Read data files from: /usr/bin/../share/nmap
+# Nmap done at Mon Dec 20 10:14:05 2021 -- 1 IP address (1 host up) scanned in 1.50 seconds

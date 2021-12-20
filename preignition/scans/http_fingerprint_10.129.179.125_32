@@ -1,0 +1,10 @@
+# Nmap 7.92 scan initiated Mon Dec 20 11:37:51 2021 as: nmap -Pn -n -v -sV -p 80 -oN ./http_fingerprint_10.129.179.125_32 10.129.179.125
+Nmap scan report for 10.129.179.125
+Host is up (0.084s latency).
+
+PORT   STATE SERVICE VERSION
+80/tcp open  http    nginx 1.14.2
+
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Mon Dec 20 11:37:58 2021 -- 1 IP address (1 host up) scanned in 7.38 seconds
