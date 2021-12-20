@@ -1,0 +1,9 @@
+# Nmap 7.92 scan initiated Mon Dec 20 14:40:20 2021 as: nmap -Pn -n -v -sT --top-ports 200 -oN ./top_200_tcp_10.129.118.8_32 10.129.118.8
+Nmap scan report for 10.129.118.8
+Host is up (0.099s latency).
+Not shown: 146 closed tcp ports (conn-refused), 53 filtered tcp ports (no-response)
+PORT     STATE SERVICE
+3306/tcp open  mysql
+
+Read data files from: /usr/bin/../share/nmap
+# Nmap done at Mon Dec 20 14:40:22 2021 -- 1 IP address (1 host up) scanned in 1.68 seconds

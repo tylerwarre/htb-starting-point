@@ -1,0 +1,30 @@
+┌──(tyler㉿Tyler-Kali)-[~/…/learn/htb-starting-point/appointment/scans]
+└─$ gobuster dir -u "http://127.0.0.1:8080/" -w /usr/share/dirb/wordlists/common.txt -o ./gobuster_common_10.129.144.20                                                                                                                                                                                                 1 ⨯
+===============================================================
+Gobuster v3.1.0
+by OJ Reeves (@TheColonial) & Christian Mehlmauer (@firefart)
+===============================================================
+[+] Url:                     http://127.0.0.1:8080/
+[+] Method:                  GET
+[+] Threads:                 10
+[+] Wordlist:                /usr/share/dirb/wordlists/common.txt
+[+] Negative Status codes:   404
+[+] User Agent:              gobuster/3.1.0
+[+] Timeout:                 10s
+===============================================================
+2021/12/20 13:57:59 Starting gobuster in directory enumeration mode
+===============================================================
+/.hta                 (Status: 403) [Size: 276]
+/.htpasswd            (Status: 403) [Size: 276]
+/.htaccess            (Status: 403) [Size: 276]
+/css                  (Status: 301) [Size: 311] [--> http://127.0.0.1:8080/css/]
+/fonts                (Status: 301) [Size: 313] [--> http://127.0.0.1:8080/fonts/]
+/images               (Status: 301) [Size: 314] [--> http://127.0.0.1:8080/images/]
+/index.php            (Status: 200) [Size: 4896]                                   
+/js                   (Status: 301) [Size: 310] [--> http://127.0.0.1:8080/js/]    
+/server-status        (Status: 403) [Size: 276]                                    
+/vendor               (Status: 301) [Size: 314] [--> http://127.0.0.1:8080/vendor/]
+                                                                                   
+===============================================================
+2021/12/20 13:59:29 Finished
+===============================================================

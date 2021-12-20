@@ -1,0 +1,11 @@
+# Nmap 7.92 scan initiated Mon Dec 20 15:14:02 2021 as: nmap -Pn -n -v -sT --top-ports 200 -oN ./top_200_tcp_10.129.144.184_32 10.129.144.184
+Increasing send delay for 10.129.144.184 from 0 to 5 due to 16 out of 52 dropped probes since last increase.
+Nmap scan report for 10.129.144.184
+Host is up (0.083s latency).
+Not shown: 198 closed tcp ports (conn-refused)
+PORT   STATE SERVICE
+21/tcp open  ftp
+80/tcp open  http
+
+Read data files from: /usr/bin/../share/nmap
+# Nmap done at Mon Dec 20 15:14:04 2021 -- 1 IP address (1 host up) scanned in 2.57 seconds

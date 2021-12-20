@@ -1,0 +1,21 @@
+┌──(tyler㉿Tyler-Kali)-[~/…/learn/htb-starting-point/crocodile/scans]                                                                                       
+└─$ gobuster dir -u http://10.129.144.184/ -w /usr/share/seclists/Discovery/Web-Content/PHP.fuzz.txt -o gobuster_php_10.129.144.184
+===============================================================                                                                                             
+Gobuster v3.1.0                                                                                                                                             
+by OJ Reeves (@TheColonial) & Christian Mehlmauer (@firefart)
+===============================================================      
+[+] Url:                     http://10.129.144.184/                                                                                                         
+[+] Method:                  GET                                              
+[+] Threads:                 10                                               
+[+] Wordlist:                /usr/share/seclists/Discovery/Web-Content/PHP.fuzz.txt
+[+] Negative Status codes:   404                                              
+[+] User Agent:              gobuster/3.1.0                                                                                                                 
+[+] Timeout:                 10s                                              
+===============================================================      
+2021/12/20 15:21:51 Starting gobuster in directory enumeration mode                                                                                         
+===============================================================
+//login.php           (Status: 200) [Size: 1577]                              
+                                                                     
+===============================================================               
+2021/12/20 15:21:52 Finished                                                  
+===============================================================
