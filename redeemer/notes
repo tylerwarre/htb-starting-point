@@ -1,0 +1,39 @@
+ip: 10.129.132.137
+root flag: `03e1d2b376c37ab3f5319922053953eb`
+
+# Questions
+1 - Which TCP port is open on the machine?
+	- 6379
+2 - Which service is running on the port that is open on the machine?
+	- redis
+3 - What type of database is Redis? Choose from the following options: (i) In-memory Database, (ii) Traditional Database?
+	- In-memory Database
+4 - Which command-line utility is used to interact with the Redis server? Enter the program name you would enter into the terminal without any arguments.
+	- redis-cli
+5 - Which flag is used with the Redis command-line utility to specify the hostname?
+	- -h
+6 - Once connected to a Redis server, which command is used to obtain the information and statistics about the Redis server?
+	- info
+7 - What is the version of the Redis server being used on the target machine?
+	- 5.0.7
+8 - Which command is used to select the desired database in Redis?
+	- select
+9 -  How many keys are present inside the database with index 0?
+
+# Scans
+- completed a top 200 & 500 services nmap scan which yielded no results
+- Starting a complete port range scan to find services. Found a redis service runnign on port 6379/tcp
+- Running a service scan on 6379/tcp shows that the server is running Redis v5.0.7
+
+# Connecting to Redis Server
+- Connected to server with `redis-cli -h 10.129.132.137`
+- Used the help command to browse what commands are available
+- Found `info` command under the @server help to answer question 6
+- Found `select` command under the @connection help page to answer question 9. This is used to change the selected database
+- You can list the number of databases on the redis server with `CONFIG GET databases`. This does not mean data is in each of the databases
+- With `INFO keyspace` you can see the number of keys defined for each database`
+- Selected the 0 database with `SELECT 0`
+- You can list the keys in the current database with `KEYS *`
+- You can get the value of a key with `GET <key>`
+- Retrieved the flag with `GET "flag"`
+- Root flag is `03e1d2b376c37ab3f5319922053953eb`

@@ -1,0 +1,11 @@
+# Nmap 7.92 scan initiated Tue Jul  5 11:22:52 2022 as: nmap -Pn -n -sV -p 6379 -v3 -oN ./service_redis_10.129.42.132_32 10.129.42.132
+Nmap scan report for 10.129.42.132
+Host is up, received user-set (0.10s latency).
+Scanned at 2022-07-05 11:22:53 PDT for 6s
+
+PORT     STATE SERVICE REASON         VERSION
+6379/tcp open  redis   syn-ack ttl 63 Redis key-value store 5.0.7
+
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Tue Jul  5 11:22:59 2022 -- 1 IP address (1 host up) scanned in 6.73 seconds

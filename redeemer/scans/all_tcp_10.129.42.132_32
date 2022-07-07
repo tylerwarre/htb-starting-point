@@ -1,0 +1,10 @@
+# Nmap 7.92 scan initiated Tue Jul  5 11:07:41 2022 as: nmap -Pn -n -v -sT -p- -T5 -oN ./all_tcp_10.129.42.132_32 10.129.42.132
+Warning: 10.129.42.132 giving up on port because retransmission cap hit (2).
+Nmap scan report for 10.129.42.132
+Host is up (0.100s latency).
+Not shown: 63006 closed tcp ports (conn-refused), 2528 filtered tcp ports (no-response)
+PORT     STATE SERVICE
+6379/tcp open  redis
+
+Read data files from: /usr/bin/../share/nmap
+# Nmap done at Tue Jul  5 11:16:51 2022 -- 1 IP address (1 host up) scanned in 550.45 seconds
