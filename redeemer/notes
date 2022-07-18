@@ -18,7 +18,12 @@ root flag: `03e1d2b376c37ab3f5319922053953eb`
 	- 5.0.7
 8 - Which command is used to select the desired database in Redis?
 	- select
-9 -  How many keys are present inside the database with index 0?
+9 - How many keys are present inside the database with index 0?
+	- 4
+10 - Which command is used to botain all the keys in a database?
+	- KEYS *
+11 - Submit root flag
+	- 03e1d2b376c37ab3f5319922053953eb
 
 # Scans
 - completed a top 200 & 500 services nmap scan which yielded no results

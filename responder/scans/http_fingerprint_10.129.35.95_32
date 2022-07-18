@@ -1,0 +1,14 @@
+# Nmap 7.92 scan initiated Fri Jul 15 11:28:19 2022 as: nmap -sV -sC -v -p 80 -oN ./http_fingerprint_10.129.35.95_32 10.129.35.95
+Nmap scan report for 10.129.35.95
+Host is up (0.29s latency).
+
+PORT   STATE SERVICE VERSION
+80/tcp open  http    Apache httpd 2.4.52 ((Win64) OpenSSL/1.1.1m PHP/8.1.1)
+|_http-server-header: Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/8.1.1
+|_http-title: Site doesn't have a title (text/html; charset=UTF-8).
+| http-methods: 
+|_  Supported Methods: GET HEAD POST OPTIONS
+
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Fri Jul 15 11:28:33 2022 -- 1 IP address (1 host up) scanned in 13.93 seconds

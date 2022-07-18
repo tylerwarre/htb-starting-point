@@ -1,0 +1,13 @@
+# Nmap 7.92 scan initiated Fri Jul 15 11:42:48 2022 as: nmap -sV -sC -v -p 5985 -oN ./wsman_fingerprint_10.129.35.95_32 10.129.35.95
+Nmap scan report for unika.htb (10.129.35.95)
+Host is up (0.10s latency).
+
+PORT     STATE SERVICE VERSION
+5985/tcp open  http    Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+|_http-title: Not Found
+|_http-server-header: Microsoft-HTTPAPI/2.0
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Fri Jul 15 11:42:58 2022 -- 1 IP address (1 host up) scanned in 9.62 seconds

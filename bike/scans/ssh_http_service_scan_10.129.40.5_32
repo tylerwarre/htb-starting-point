@@ -1,0 +1,13 @@
+# Nmap 7.92 scan initiated Thu Jul  7 09:18:06 2022 as: nmap -Pn -n -v3 -sV -p 22,80 -oN ./ssh_http_service_scan_10.129.40.5_32 10.129.40.5
+Nmap scan report for 10.129.40.5
+Host is up, received user-set (0.11s latency).
+Scanned at 2022-07-07 09:18:07 PDT for 7s
+
+PORT   STATE SERVICE REASON  VERSION
+22/tcp open  ssh     syn-ack OpenSSH 8.2p1 Ubuntu 4ubuntu0.4 (Ubuntu Linux; protocol 2.0)
+80/tcp open  http    syn-ack Node.js (Express middleware)
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Thu Jul  7 09:18:14 2022 -- 1 IP address (1 host up) scanned in 7.52 seconds
