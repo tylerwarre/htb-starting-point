@@ -1,0 +1,11 @@
+# Nmap 7.92 scan initiated Tue Jul 19 07:01:48 2022 as: nmap -Pn -n -v -sT --top-ports 200 -oN ./top_200_tcp_10.129.26.54_32 10.129.26.54
+Nmap scan report for 10.129.26.54
+Host is up (0.10s latency).
+Not shown: 197 closed tcp ports (conn-refused)
+PORT     STATE SERVICE
+22/tcp   open  ssh
+8080/tcp open  http-proxy
+8443/tcp open  https-alt
+
+Read data files from: /usr/bin/../share/nmap
+# Nmap done at Tue Jul 19 07:01:51 2022 -- 1 IP address (1 host up) scanned in 2.67 seconds

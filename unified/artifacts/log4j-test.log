@@ -1,0 +1,3 @@
+08:28:48.422723 IP 10.129.28.107.45512 > tyler-ops.iclpv-dm: Flags [S], seq 1682121545, win 64240, options [mss 1337,sackOK,TS val 1916484404 ecr 0,nop,wscale 7], length 0
+08:28:48.422737 IP tyler-ops.iclpv-dm > 10.129.28.107.45512: Flags [R.], seq 0, ack 1682121546, win 0, length 0
+
